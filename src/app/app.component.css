@@ -1,0 +1,20 @@
+::ng-deep .page-wrapper .right-block { width: calc(100% - 230px); }
+
+::ng-deep .bg-light-black {
+    background-color: #001B30
+}
+::ng-deep button[type=submit], ::ng-deep button[type=submit]:disabled, ::ng-deep button[type=submit].disabled{
+    background-color: #001B30;
+    border-radius: 19px;
+    min-width: 150px
+}
+
+::ng-deep .form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+::ng-deep .form-control:focus {
+    box-shadow: none;
+}
